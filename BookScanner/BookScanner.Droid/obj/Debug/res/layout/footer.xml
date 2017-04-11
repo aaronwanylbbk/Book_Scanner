@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Home\r\n" />
+<!--<Button
+        android:id="@+id/btnLogo"
+        android:layout_width="140.0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Logo\r\n" />-->
+    <ImageView
+        android:layout_width="140.0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/logoImageView"
+        android:src="@drawable/scanner"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="About\r\nUs" />
+</LinearLayout>

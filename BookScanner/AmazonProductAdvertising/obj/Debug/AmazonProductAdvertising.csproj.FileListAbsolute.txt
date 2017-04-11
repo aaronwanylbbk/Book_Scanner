@@ -1,0 +1,11 @@
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\bin\Debug\AmazonProductAdvertising.dll
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\bin\Debug\AmazonProductAdvertising.pdb
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\bin\Debug\AmazonProductAdvertising.AmazonProductAdvertising.apk
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\bin\Debug\AmazonProductAdvertising.AmazonProductAdvertising-Signed.apk
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\AmazonProductAdvertising.csprojResolveAssemblyReference.cache
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\AmazonProductAdvertising.dll
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\AmazonProductAdvertising.pdb
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\android\bin\AmazonProductAdvertising.AmazonProductAdvertising.apk
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\res\values\strings.xml
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\R.cs.flag
+C:\Users\Tan\Documents\Book_Scanner\BookScanner\AmazonProductAdvertising\obj\Debug\uploadflags.txt

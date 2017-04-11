@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+<!-- Footer aligned to bottom -->
+    <include
+        layout="@layout/footer" />
+<!-- Content below header and above footer -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_marginTop="10dip"
+            android:text="BOOK SCAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScan" />
+        <Button
+            android:layout_marginTop="10dip"
+            android:text="MY BOOKS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMyBook" />
+        <Button
+            android:layout_marginTop="10dip"
+            android:text="SEARCH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSearch" />
+        <Button
+            android:layout_marginTop="10dip"
+            android:text="BOOKS OF THE MONTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBooksOfTheMonth" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+<!-- Footer aligned to bottom -->
+    <include
+        layout="@layout/footer" />
+    <RelativeLayout
+        android:id="@+id/forms"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:stretchColumns="1"
+                    android:paddingTop="10dp"
+                    android:layout_marginBottom="0.0dp">
+                    <View
+                        android:layout_height="2dip"
+                        android:background="#FF909090" />
+                    <TableRow
+                        android:id="@+id/tableRow1">
+                        <TextView
+                            android:text="Author"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/black" />
+                        <EditText
+                            android:id="@+id/editAuthor"
+                            android:hint="Please type in an author name"
+                            android:textColorHint="@color/black"
+                            android:layout_width="fill_parent"
+                            android:layout_span="2"
+                            android:textColor="@color/black"
+                            android:background="@drawable/backwithborder" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Title"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/black" />
+                        <EditText
+                            android:id="@+id/editTitle"
+                            android:hint="Please type in a book title"
+                            android:textColorHint="@color/black"
+                            android:layout_width="fill_parent"
+                            android:layout_span="2"
+                            android:textColor="@color/black"
+                            android:background="@drawable/backwithborder" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Page Number"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/black" />
+                        <EditText
+                            android:id="@+id/editPageNumber"
+                            android:layout_width="fill_parent"
+                            android:layout_span="2"
+                            android:textColor="@color/black"
+                            android:background="@drawable/backwithborder" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Published Date"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/black" />
+                        <EditText
+                            android:id="@+id/editPublishedDate"
+                            android:layout_width="fill_parent"
+                            android:editable="false"
+                            android:textColor="@color/black"
+                            android:background="@drawable/backwithborder" />
+                        <ImageButton
+                            android:id="@+id/imageCalendar"
+                            android:layout_height="fill_parent"
+                            android:layout_width="50dip"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/CalendarIcon"
+                            android:layout_gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Price"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip"
+                            android:textColor="@color/black" />
+                        <EditText
+                            android:id="@+id/editPrice"
+                            android:layout_width="fill_parent"
+                            android:layout_span="2"
+                            android:textColor="@color/black"
+                            android:background="@drawable/backwithborder" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Status"
+                            android:paddingRight="10dip"
+                            android:paddingLeft="10dip" 
+                            android:textColor="@color/black"/>
+                        <RadioGroup
+                            android:id="@+id/radio_group_search"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_span="2">
+                            <RadioButton
+                                android:id="@+id/radio_read"
+                                android:text="Read"
+                                android:textSize="14dip"
+                                android:textColor="@color/black"
+                                android:buttonTint="@color/black" />
+                            <RadioButton
+                                android:id="@+id/radio_ToRead"
+                                android:text="To Read"
+                                android:textSize="14dip"
+                                android:textColor="@color/black"
+                                android:buttonTint="@color/black" />
+                            <RadioButton
+                                android:id="@+id/radio_Reading"
+                                android:text="Reading"
+                                android:textSize="14dip"
+                                android:textColor="@color/black"
+                                android:buttonTint="@color/black" />
+                        </RadioGroup>
+                    </TableRow>
+                    <View
+                        android:layout_height="2dip"
+                        android:background="#FF909090" />
+                </TableLayout>
+                <Button
+                    android:text="Search"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonSearch" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
